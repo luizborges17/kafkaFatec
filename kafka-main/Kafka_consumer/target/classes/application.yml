@@ -1,0 +1,17 @@
+server:
+  port: 8100
+spring:
+  kafka:
+    consumer:
+      bootstrap-servers: localhost:29092
+  mail:
+    host: smtp.mailtrap.io
+    port: 587
+    username: f64540eaf939fe
+    password: d590c50c862a45
+    properties:
+      mail:
+        smtp:
+          auth:true
+        starttls:
+          enable: true
